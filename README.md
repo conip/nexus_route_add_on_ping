@@ -2,6 +2,7 @@
 script adds/removes static route on NEXUS platform based on PING result
 
 tested in the following LAB environment on EVE-NG
+\n
 NX-(10.1.1.1/24)------------(10.1.1.2/24)RTR(lo 0 – 8.8.8.8)
 
 on NEXUS:
