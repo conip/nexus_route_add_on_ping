@@ -7,7 +7,7 @@ NX-(10.1.1.1/24)------------(10.1.1.2/24)RTR(lo 0 – 8.8.8.8)
 on NEXUS:
 ```
 scheduler job name TEST
-  python bootflash:/scripts/DG_route_track_v3.py 10.10.0.0/16 10.1.1.2 8.8.8.8
+  python bootflash:/scripts/nx_route_track.py 10.10.0.0/16 10.1.1.2 8.8.8.8
  
 end-job
  
@@ -18,4 +18,4 @@ scheduler schedule name ALA
 
 
 to execute and test do the following
-python DG_route_track_v3.py <route> <route_nexthop> <ping_test_host>
+python nx_route_track.py <route> <route_nexthop> <ping_test_host>
